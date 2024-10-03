@@ -13,9 +13,9 @@ export default function TermsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className="lg:mt-4 ">
       <PageBanner heading="Terms and Conditions" subHeading="" />
       {children}
-    </>
+    </div>
   );
 }

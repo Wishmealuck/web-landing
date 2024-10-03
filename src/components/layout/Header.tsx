@@ -32,7 +32,7 @@ export const Header = () => {
         "h-20 w-full fixed top-0 right-0 z-[100] bg-white flex flex-wrap justify-center align-middle place-items-center"
       }
     >
-      <div className=" w-[90%] lg:w-[88%] xl:w-[85%] flex justify-center shadow-md px-6 py-4 rounded-full lg:mt-4 mt-1">
+      <div className=" w-[90%] lg:w-[88%] xl:w-[85%] flex justify-center shadow-md px-6 py-4 rounded-full">
         <div className="flex  w-full  justify-between place-items-center">
           <div className="flex items-center align-middle">
             <div className="flex align-middle place-items-center   gap-8">

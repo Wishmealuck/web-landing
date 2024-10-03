@@ -13,9 +13,9 @@ export default function PolicyLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className="lg:mt-4">
       <PageBanner heading="Privacy Policy" subHeading="" />
       {children}
-    </>
+    </div>
   );
 }

@@ -3,7 +3,7 @@ import { terms } from "../data/terms";
 
 export default function page() {
   return (
-    <div>
+    <div >
       <DocsComponent data={terms} />
     </div>
   );
