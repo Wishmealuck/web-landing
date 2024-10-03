@@ -4,18 +4,18 @@ import SectionBlock from "@/components/utils/SectionBlock";
 import PageBanner from "@/components/utils/PageBanner";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions",
-  description: "Terms and Conditions of Wishmealuck",
+  title: "Privacy Policy",
+  description: "Privacy Policy of Wishmealuck",
 };
 
-export default function TermsLayout({
+export default function PolicyLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <>
-      <PageBanner heading="Terms and Conditions" subHeading="" />
+      <PageBanner heading="Privacy Policy" subHeading="" />
       {children}
     </>
   );

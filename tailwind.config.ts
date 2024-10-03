@@ -15,7 +15,9 @@ const config: Config = {
       },
       colors: {
         whiteButtonText: "#3970B7",
-
+        footerText: "#474747",
+        darkGrayText: "#3A3A3A",
+        lightGrayText: "#B8B8B8",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

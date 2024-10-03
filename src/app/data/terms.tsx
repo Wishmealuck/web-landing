@@ -1,102 +1,76 @@
 export const terms = [
-    {
-      id: 1,
-      title: 'Welcome to Meracars!',
-      content: `These terms and conditions outline the rules and regulations for the use of Team Tech Media's Website, located at <a href='https://www.meracars.com/'>https://www.meracars.com/</a> . <br/> <br/>
-      By accessing this website, we assume you accept these terms and conditions. Do not continue to use Meracars if you do not agree to take all of the terms and conditions stated on this page. <br/> <br/>
-      The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice, and all Agreements: "Client", "You" and "Your" refer to you, the person log on this website and compliant with the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of the provision of the Company's stated services, in accordance with and subject to, prevailing law of India. Any use of the above terminology or other words in the singular, plural, capitalization, and/or he/she or they, are taken as interchangeable and therefore as referring to the same.
-      <br/> `,
-    },
-    {
-      id: 2,
-      title: 'Cookies',
-      content: `We employ the use of cookies. By accessing Meracars, you agreed to use cookies in agreement with the Team Tech Media's Privacy Policy. <br/>  <br/>
-      Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
-      `,
-    },
-    {
-      id: 3,
-      title: 'Licence',
-      content: `Unless otherwise stated, Team Tech Media and/or its licensors own the intellectual property rights for all material on Meracars. All intellectual property rights are reserved. You may access this from Meracars for your own personal use subjected to restrictions set in these terms and conditions. <br/>  <br/>
-      
-      You must not: <br/> <br/>
-      • Republish material from Meracars <br/>
-      • Sell, rent or sub-license material from Meracars <br/>
-      • Reproduce, duplicate or copy material from Meracars <br/>
-      • Redistribute content from Meracars <br/>
+  {
+    id: 1,
+    title: "Introduction",
+    content: `Welcome to Wishmealuck. By using our platform, you agree to comply with and be bound by the following terms and conditions. If you do not agree to these terms, please do not participate in the giveaways.`,
+  },
+  {
+    id: 2,
+    title: "Eligibility",
+    content: `Age Requirement:** Users must be at least 18+ years old to participate. <br/> 
+Residence Restrictions:** Giveaways may be restricted to users from certain locations, depending on the specific giveaway rules. <br/>
+No Purchase Necessary:** No purchase is required to enter any of our giveaways. <br/>
+`,
+  },
+  {
+    id: 3,
+    title: "User Responsibilities",
+    content: `Users are responsible for providing accurate and truthful information when entering giveaways.
+<br/> Users must follow all rules and guidelines associated with each specific giveaway.`,
+  },
+  {
+    id: 4,
+    title: "Giveaway Entries",
+    content: `
+Each giveaway may have its own entry requirements, such as completing tasks, following social media pages, or submitting contact information. <br/>
+Entry limits (e.g., one entry per person) may apply and will be specified in each giveaway’s details. 
+`,
+  },
+  {
+    id: 5,
+    title: "Winner Selection and Notification",
+    content: `
+Winners will be chosen at random or based on specific criteria outlined in the giveaway. <br/>
+Winners will be notified via email, social media, or platform notifications. <br/>
+Winners must respond within [X days] to claim their prize, or the prize may be forfeited. <br/>`,
+  },
+  {
+    id: 6,
+    title: "Prizes",
+    content: `Prizes will be specified for each giveaway and are non-transferable unless explicitly stated.
+<br/> Prizes will be delivered via mail, email, or other means based on the giveaway terms.
+<br/> Wish me a luck is not responsible for lost, damaged, or misdelivered prizes.`,
+  },
+  {
+    id: 7,
+    title: "Disqualification",
+    content: `We reserve the right to disqualify users for violating the giveaway rules or engaging in fraudulent activities. <br/> <br/>
   
-     <br/>  This Agreement shall begin on the date hereof. <br/> <br/>
-  Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Team Tech Media does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Team Tech Media, its agents, and/or affiliates. Comments reflect the views and opinions of the person who posts their views and opinions. To the extent permitted by applicable laws, Team Tech Media shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website. <br/> <br/>
-  Team Tech Media reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions. <br/>
-  <br /> You warrant and represent that: <br/> <br/>
-  • You are entitled to post the Comments on our website and have all necessary licences and consents to do so; <br/>
-  • The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party; <br/>
-  • The Comments do not contain any defamatory, libellous, offensive, indecent or otherwise unlawful material which is an invasion of privacy <br/>
-  • The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity. <br/> <br/>
-  You hereby grant Team Tech Media a non-exclusive licence to use, reproduce, edit, and authorise others to use, reproduce, and edit any of your Comments in any and all forms, formats or media.
   
+  
+        `,
+  },
+  {
+    id: 8,
+    title: "Limitation of Liability",
+    content: `
+Wish me a luck will not be liable for any damages, losses, or injuries that occur as a result of participating in a giveaway or using a prize, except as required by law.
+
   `,
-    },
-    {
-      id: 4,
-      title: 'Hyperlinking to our Content',
-      content: `The following organisations may link to our Website without prior written approval: <br/> <br/>
-      • Government agencies; <br/>
-      • Search engines; <br/>
-      • News organisations; <br/>
-      • Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and System wide Accredited Businesses except soliciting non-profit organisations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Website. <br/> <br/>
-      These organisations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party's site. <br/> <br/>
-      We may consider and approve other link requests from the following types of organisations: <br/> <br/>
-      • Commonly-known consumer and/or business information sources; <br/>
-      • dot.com community sites; <br/>
-      • associations or other groups representing charities; <br/>
-      • online directory distributors; <br/>
-      • internet portals; <br/>
-      • accounting, law and consulting firms; and <br/>
-      • educational institutions and trade associations. <br/> <br/>
-      We will approve link requests from these organisations if we decide that: (a) the link would not make us look unfavourably to ourselves or to our accredited businesses; (b) the organisation does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Team Tech Media; and (d) the link is in the context of general resource information. <br/> <br/>
-      These organisations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site. <br/> <br/>
-      If you are one of the organisations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an email to Team Tech Media. Please include your name, your organisation name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response. <br/> <br/>
-      Approved organisations may hyperlink to our Website as follows: <br/> <br/>
-      • By use of our corporate name; or <br/>
-      • By use of the uniform resource locator being linked to; or <br/>
-      • By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party's site. <br/> <br/>
-      No use of Team Tech Media's logo or other artwork will be allowed for linking absent a trademark licence agreement.
-      `,
-    },
-    {
-      id: 5,
-      title: 'iFrames',
-      content: `Without prior approval and written permission, you may not create frames around our Web pages that alter in any way the visual presentation or appearance of our Website.`,
-    },
-    {
-      id: 6,
-      title: 'Content Liability',
-      content: `We shall not be held responsible for any content that appears on your Website. You agree to protect and defend us against all claims that are rising on your Website. No link(s) should appear on any Website that may be interpreted as libellous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.`,
-    },
-    {
-      id: 7,
-      title: 'Reservation of Rights',
-      content: `We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.`,
-    },
-    {
-      id: 8,
-      title: 'Removal of links from our website',
-      content: `If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.
-    <br/> <br/>   We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.
-      `,
-    },
-    {
-      id: 9,
-      title: 'Disclaimer',
-      content: `To the maximum extent permitted by applicable law, we exclude all representations, warranties, and conditions relating to our website and the use of this website. Nothing in this disclaimer will: <br/> <br/>
-      • Limit or exclude our or your liability for death or personal injury; <br/>
-      • Limit or exclude our or your liability for fraud or fraudulent misrepresentation; <br/>
-      • Limit any of our or your liabilities in any way that is not permitted under applicable law; or <br/>
-      • Exclude any of our or your liabilities that may not be excluded under applicable law. <br/>
-      <br/> The limitations and prohibitions of liability set in this section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort, and for breach of statutory duty.
-     <br/> <br/>  As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.
-      `,
-    },
-  ];
-  
+  },
+  {
+    id: 9,
+    title: "Modifications",
+    content: `We reserve the right to modify or terminate giveaways at any time without prior notice.`,
+  },
+  {
+    id: 10,
+    title: "Governing Law",
+    content: `These terms and conditions are governed by the laws of India, and any disputes shall be subject to the jurisdiction of the courts of India`,
+  },
+  {
+    id: 11,
+    title: "Contact Us",
+    content: `If you have any questions about these terms, please contact us at <b>support@wishmealuck.com<b/>`,
+  },
+];
