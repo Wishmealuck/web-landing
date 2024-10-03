@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import * as React from "react";
-import SectionBlock from "@/components/utils/SectionBlock";
 import PageBanner from "@/components/utils/PageBanner";
 
 export const metadata: Metadata = {
