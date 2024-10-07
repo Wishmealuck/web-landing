@@ -9,7 +9,7 @@ export const GradientTextField = () => {
           placeholder="Enter your instagram url"
           className="bg-white rounded-l-full flex placeholder:text-placeholderGray placeholder:font-medium placeholder:leading-6 p-2 focus:outline-none"
         />
-        <GradientFillButton rounded text="Find winner" />
+        <GradientFillButton rounded={true} text="Find winner" />
       </div>
     </div>
   );
