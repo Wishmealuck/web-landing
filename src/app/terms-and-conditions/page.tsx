@@ -1,5 +1,5 @@
 import DocsComponent from "@/components/layout/Docs";
-import { terms } from "../data/terms";
+import { terms } from "../../constants/data/terms";
 
 export default function page() {
   return (

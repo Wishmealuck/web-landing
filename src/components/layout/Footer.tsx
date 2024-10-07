@@ -29,11 +29,11 @@ export const Footer = () => {
             <Link href={"/terms-and-conditions"}>Terms and Conditions</Link>
             <Link href={"/privacy-policy"}>Privacy & Policies</Link>
           </div>
-          
+
           <div className="flex gap-3">
             {socials.map((social) => {
               return (
-                <Link key={social.name} href={social.link}>
+                <Link key={social.name} href={social.link} scroll={true}>
                   <Image
                     src={social.image}
                     alt={social.name}
@@ -44,11 +44,10 @@ export const Footer = () => {
               );
             })}
           </div>
-          
         </div>
         <div className="flex lg:hidden text-footerText justify-center mt-4 text-sm leading-normal font-medium ">
-            © Wish me a luck
-          </div>
+          © Wish me a luck
+        </div>
       </div>
     </div>
   );

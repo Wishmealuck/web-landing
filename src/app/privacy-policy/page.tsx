@@ -1,5 +1,5 @@
 import DocsComponent from "@/components/layout/Docs";
-import { policy } from "../data/policy";
+import { policy } from "../../constants/data/policy";
 
 export default function page() {
   return (
