@@ -12,12 +12,15 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "custom-gradient": "linear-gradient(90deg, #FF5655 0%, #D361FF 100%)",
+        "gradient-red-purple":
+          "linear-gradient(90deg, #FF5655 0%, #D361FF 100%)",
       },
       colors: {
         whiteButtonText: "#3970B7",
         footerText: "#474747",
         darkGrayText: "#3A3A3A",
         lightGrayText: "#B8B8B8",
+        placeholderGray: "#BCBCBC",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
