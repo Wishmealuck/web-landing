@@ -110,7 +110,7 @@ export default function RootLayout({
         ></meta>
         <meta name="theme-color" content="#ffffff"></meta>
       </head>
-      <body className="h-full min-h-max  antialiased">
+      <body className="h-full min-h-max  antialiased flex flex-col justify-between">
         <Header />
         <SectionBlock>{children}</SectionBlock>
         <Footer />
