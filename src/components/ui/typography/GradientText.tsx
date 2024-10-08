@@ -15,7 +15,7 @@ export const GradientText = ({
 }: GradientTextProps) => {
   return (
     <p
-      className={`bg-gradient-to-r from-[#FF5655] to-[#D361FF] bg-clip-text text-transparent ${className} ${size} ${weight} ${textAlign}`}
+      className={`bg-200% animate-gradient bg-gradient-to-r from-[#FF5655] to-[#D361FF] bg-clip-text text-transparent ${className} ${size} ${weight} ${textAlign}`}
     >
       {text}
     </p>
