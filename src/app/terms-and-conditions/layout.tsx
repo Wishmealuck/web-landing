@@ -4,7 +4,7 @@ import PageBanner from "@/components/utils/PageBanner";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions",
-  description: "Terms and Conditions of Wishmealuck",
+  description: "Terms and Conditions of Wishmeluck",
 };
 
 export default function TermsLayout({

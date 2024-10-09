@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="overflow-x-clip">
       <Head>
-        <title>WishMeALuck - Home</title>
+        <title>WishMeLuck - Home</title>
       </Head>
       <section className="flex flex-col justify-center items-center ">
         <TrustedBy isMobile />

@@ -4,7 +4,7 @@ import PageBanner from "@/components/utils/PageBanner";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy Policy of Wishmealuck",
+  description: "Privacy Policy of Wishmeluck",
 };
 
 export default function PolicyLayout({

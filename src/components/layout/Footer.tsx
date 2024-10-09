@@ -21,7 +21,7 @@ export const Footer = () => {
     <div className="flex flex-col justify-center px-12 lg:px-28 my-10 ">
       <div className="flex justify-between">
         <div className="lg:flex hidden text-footerText text-sm leading-normal font-medium ">
-          © Wish me a luck
+          © Wish me luck
         </div>
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
           <Link href={"/"}>About us</Link>
@@ -45,7 +45,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="flex lg:hidden text-footerText justify-center mt-4 text-sm leading-normal font-medium ">
-        © Wish me a luck
+        © Wish me luck
       </div>
     </div>
   );
