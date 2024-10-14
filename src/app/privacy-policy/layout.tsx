@@ -3,8 +3,11 @@ import * as React from "react";
 import PageBanner from "@/components/utils/PageBanner";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "Privacy Policy of Wishmeluck",
+  title: "Privacy Policy - Wishmeluck",
+  description:
+    "Read our Privacy Policy to understand how we handle your personal information and data at Wishmeluck.",
+  keywords: ["Privacy Policy", "Wishmeluck", "Data Protection", "User Privacy"],
+  robots: "index, follow",
 };
 
 export default function PolicyLayout({
