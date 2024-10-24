@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "Winners of the Giveaway - Wishmeluck",
@@ -18,5 +19,9 @@ export default function WinnersLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className="bg-custom-gradient h-screen w-full">{children}</div>;
+  return (
+    <div className="bg-custom-gradient h-screen w-full">
+      <Suspense>{children}</Suspense>
+    </div>
+  );
 }
