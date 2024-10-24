@@ -3,22 +3,29 @@ import { useState } from "react";
 import { GradientFillButton } from "../buttons/gradient-button";
 import { extractInstaPostId } from "@/utils/extractInstaPostId";
 import axios from "axios";
+import { useRouter } from "next/navigation";
 
 export const GradientTextField = () => {
   const [link, setLink] = useState("");
-  function handleOnClick() {
+  const router = useRouter();
+  async function handleOnClick() {
+    if (link === "" || !link) {
+      return alert("Input Post Link");
+    }
     const extractedId = extractInstaPostId(link);
-    axios
+    await axios
       .get(`https://verifyshare.com/api/post`, {
         params: {
           hash: extractedId,
         },
       })
       .then((res) => {
-        console.log(res.data, "datachecking");
+        const data = JSON.stringify(res.data.post);
+        localStorage.setItem("postData", data);
+        router.push("/comment-picker/select-winner");
       })
-      .catch((err) => {
-        console.log(err, "errorChecking");
+      .catch(() => {
+        alert("Something Bad Happend!");
       });
   }
   return (
