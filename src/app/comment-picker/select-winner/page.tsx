@@ -5,13 +5,16 @@ import { Input } from "@/components/ui/input/text-field";
 import { GradientText } from "@/components/ui/typography/GradientText";
 import { PostData } from "@/types/postData";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 export default function SelectWinner() {
   const [postData, setPostData] = useState<PostData>();
   const [progress, setProgress] = useState(0);
-  const startTime = useRef<number | null>(null);
   const [completed, setCompleted] = useState(false);
+  const startTime = useRef<number | null>(null);
+  const [winners, setWinners] = useState<string | number>(1);
+  const router = useRouter();
   useEffect(() => {
     const post = window && window.localStorage.getItem("postData");
     const parsedPost = JSON.parse(post ?? "");
@@ -39,6 +42,11 @@ export default function SelectWinner() {
       startTime.current = null; // Reset on component unmount
     };
   }, []);
+
+  const handleWinner = () => {
+    router.push(`/comment-picker/winners?count=${winners}`);
+  };
+
   return postData ? (
     <div className="flex flex-col justify-center items-center">
       <div className="flex justify-center">
@@ -82,8 +90,16 @@ export default function SelectWinner() {
           <h5 className="text-[#5C5C5C] text-sm font-medium leading-normal ">
             We are Ready, lets find the winner
           </h5>
-          <Input placeholder="Number of winners"  className="my-3" />
-          <GradientFillButton text="Find Winner" />
+          <Input
+            placeholder="Number of winners"
+            className="my-3"
+            value={winners}
+            onChange={(e) => setWinners(e.target.value)}
+            type="number"
+          />
+          {Number(winners) >= 1 && (
+            <GradientFillButton text="Find Winner" onClick={handleWinner} />
+          )}
         </div>
       )}
     </div>

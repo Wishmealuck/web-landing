@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     shortcut: "/favicon/favicon-16x16.png",
     apple: "/favicon/apple-touch-icon.png",
   },
-  manifest: `/favicon/site.webmanifest`,
+  manifest: `/favicon/manifest.json`,
 };
 
 export default function RootLayout({
@@ -102,7 +102,7 @@ export default function RootLayout({
           sizes="16x16"
           href="public/favicon/favicon-16x16.png"
         />
-        <link rel="manifest" href="/manifest.json" />
+        {/* <link rel="manifest" href="/manifest.json" /> */}
         <meta name="msapplication-TileColor" content="#ffffff"></meta>
         <meta
           name="msapplication-TileImage"
