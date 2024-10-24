@@ -20,9 +20,9 @@ export interface CommentPicker {
   has_liked_comment: boolean;
   comment_like_count: number;
   private_reply_status: number;
-  preview_child_comments: any[];
+  preview_child_comments: string[];
   child_comment_count: number;
-  other_preview_users: any[];
+  other_preview_users: string[];
   user: User;
 }
 
