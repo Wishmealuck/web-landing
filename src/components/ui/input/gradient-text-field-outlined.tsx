@@ -12,6 +12,7 @@ export const GradientTextField = () => {
     if (link === "" || !link) {
       return alert("Input Post Link");
     }
+    localStorage.setItem("postLink", link);
     const extractedId = extractInstaPostId(link);
     await axios
       .get(`https://verifyshare.com/api/post`, {
