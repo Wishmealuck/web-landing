@@ -60,7 +60,7 @@ export default function SelectWinner() {
   };
 
   return postData ? (
-    <div className="grid grid-cols-2 justify-center items-center">
+    <div className="lg:grid lg:grid-cols-2 flex flex-col justify-center items-center">
       <div className="flex justify-center">
         <div className="border border-1 border-solid border-black pt-8 pl-2  pr-7  mt-10 mb-4 shadow-[8px_8px_0_0_black] mx-5 md:mx-0">
           <div className="border border-1 border-black border-solid overflow-hidden h-[360px] w-[368px]">

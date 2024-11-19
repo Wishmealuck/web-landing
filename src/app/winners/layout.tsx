@@ -1,3 +1,4 @@
+import { Header } from "@/components/layout/Header";
 import { Metadata } from "next";
 import { Suspense } from "react";
 
@@ -21,7 +22,10 @@ export default function WinnersLayout({
 }) {
   return (
     <div className="bg-custom-gradient h-screen w-full">
-      <Suspense>{children}</Suspense>
+      <Suspense>
+        <Header />
+        {children}
+      </Suspense>
     </div>
   );
 }
