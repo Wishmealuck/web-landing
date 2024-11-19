@@ -1,10 +1,10 @@
 import DocsComponent from "@/components/layout/Docs";
-import { terms } from "../../constants/data/terms";
+import { policy } from "@/constants/data/policy";
 
 export default function page() {
   return (
-    <div >
-      <DocsComponent data={terms} />
+    <div>
+      <DocsComponent data={policy} />
     </div>
   );
 }

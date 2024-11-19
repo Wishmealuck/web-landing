@@ -7,10 +7,11 @@ import { TrustedBy } from "@/components/ui/custom/trused-by";
 
 export default function Home() {
   return (
-    <main className="overflow-x-clip">
+    <main className="overflow-x-clip ">
       <Head>
         <title>WishMeLuck - Home</title>
       </Head>
+
       <section className="flex flex-col justify-center items-center ">
         <TrustedBy isMobile />
         <div className="flex justify-center my-3 lg:px-0 px-2 lg:my-20 lg:w-1/2 items-center text-center ">

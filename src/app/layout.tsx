@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { siteConfig } from "@/constants/config";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import SectionBlock from "@/components/utils/SectionBlock";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -111,9 +108,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff"></meta>
       </head>
       <body className="h-full min-h-max bg-white  antialiased flex flex-col justify-between">
-        <Header />
-        <SectionBlock>{children}</SectionBlock>
-        <Footer />
+        {children}
       </body>
     </html>
   );

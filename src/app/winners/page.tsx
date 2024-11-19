@@ -66,6 +66,7 @@ export default function Winner() {
   }, [api]);
 
   return (
+    
     <div className="relative flex justify-center items-center h-screen text-9xl text-white font-bold overflow-hidden">
       {count > 0 ? (
         count
